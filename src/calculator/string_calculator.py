@@ -35,3 +35,5 @@ class StringCalculator:
             return self.calc.modulo(val_a, val_b)
         else:
             raise InvalidExpressionException(f"System Error: Unsupported operator '{op}'")
+
+# This is the added stuff
